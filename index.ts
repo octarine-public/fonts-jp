@@ -8,5 +8,4 @@ function LoadFontWrapper(path: string, isFallback = false) {
 		console.error(`Failed to find font file ${path}`)
 }
 
-LoadFontWrapper("fonts/NotoSansJP/NotoSansJP-Bold.otf")
-LoadFontWrapper("fonts/NotoSansJP/NotoSansJP-Regular.otf", true)
+LoadFontWrapper("fonts/MPLUS1/MPLUS1-VariableFont_wght.ttf", true)
